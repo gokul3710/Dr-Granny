@@ -1,12 +1,12 @@
 {
     "name" : "Dr Granny",
-    "short_name" : "Drgranny App",
+    "short_name" : "Dr Granny",
     "start_url" : "index.html",
     "theme_color" : "black",
     "display" : "standalone",
     "icons" : [
         {
-            "src" : "/assets/images/icon.png",
+            "src" : "./assets/images/icon.png",
             "sizes" : "320x320",
             "type" : "image/png"
         }
