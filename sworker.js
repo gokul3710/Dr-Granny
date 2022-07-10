@@ -3,12 +3,12 @@ self.addEventListener("install", e=>{
     e.waitUntil(
         caches.open("static").then(cache=>{
             return cache.addAll([
-                "/index.html",
-                "/about.html",
-                "/contact.html",
-                "/genre.html",
-                "/assets/css/style-liberty.css",
-                "/assets/images/icon.png"
+                "./index.html",
+                "./about.html",
+                "./contact.html",
+                "./genre.html",
+                "./assets/css/style-liberty.css",
+                "./assets/images/icon.png"
             
             
             ]);
