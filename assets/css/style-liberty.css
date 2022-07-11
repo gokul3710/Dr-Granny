@@ -14809,7 +14809,7 @@ header.nav-fixed {
     padding: 15px 5px 25px;
     border: 1px solid var(--theme-rose);
     z-index: 999;
-    margin-top: 16px;
+    margin-top: 1.4rem;
   }
 
   .mobile-position {
