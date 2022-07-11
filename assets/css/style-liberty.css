@@ -8565,7 +8565,7 @@ button.bg-dark:focus {
 
 .mt-4,
 .my-4 {
-  margin-top: 1.5rem !important;
+  margin-top: 0.5rem !important;
 }
 
 .mr-4,
@@ -14807,7 +14807,7 @@ header.nav-fixed {
     background: var(--theme-lite);
     border-radius: 6px;
     padding: 15px 5px 25px;
-    border: 1px solid var(--theme-para);
+    border: 1px solid var(--theme-rose);
     z-index: 999;
     margin-top: 16px;
   }
