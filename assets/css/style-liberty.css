@@ -18278,6 +18278,329 @@ ul.page-numbers li a:hover {
   }
 }
 
+/*-- forgot-pass page-start --*/
+.drg-forgot-passhny .forgot-pass-icon a {
+  font-size: 24px;
+  color: var(--primary-color);
+  display: inline-block;
+}
+
+.drg-forgot-passhny .left_grid_info h1 {
+  font-size: 45px;
+  margin: 1em 0em .5em 0em;
+  color: var(--theme-title);
+}
+
+.drg-forgot-passhny h1{
+  text-align: center;
+  color: var(--theme-title);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold ;
+}
+.drg-forgot-passhny .input-group input[type="text"],
+.drg-forgot-passhny .input-group input[type="email"],
+.drg-forgot-passhny .input-group input[type="Password"] {
+  outline: none;
+  padding: 10px 15px;
+  -webkit-appearance: none;
+  color: black;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 6px;
+  background: var(--theme-white);
+  border: 1px solid #ddd;
+}
+
+.drg-forgot-passhny .input-group input[type="text"]:focus,
+.drg-forgot-passhny .input-group input[type="email"]:focus,
+.drg-forgot-passhny .input-group input[type="Password"]:focus {
+  border: 1px solid var(--theme-rose);
+}
+
+.drg-forgot-passhny .input-group {
+  margin-bottom: 15px;
+}
+
+.drg-forgot-passhny .btn-forgot-pass {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 100%;
+  line-height: 48px;
+  text-transform: capitalize;
+}
+
+.drg-forgot-passhny .drg-hny-forgot-pass h2 {
+  display: inline-block;
+  font-size: 22px;
+  color: var(--theme-title);
+  text-align: center;
+  font-weight: 700;
+}
+
+.drg-forgot-passhny .drg-hny-forgot-pass-info {
+  max-width: 360px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 2em;
+  background: var(--theme-lite);
+  border-radius: 6px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+}
+
+.drg-forgot-passhny .drg-hny-forgot-pass form label {
+  color: var(--theme-title);
+  margin-bottom: 3px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.drg-forgot-passhny .forgot-pass-check {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drg-forgot-passhny a.forgot {
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 3px;
+  display: inline-block;
+  color: var(--theme-rose);
+}
+
+.drg-forgot-passhny a.back span {
+  font-size: 12px;
+  margin-right: 3px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.drg-forgot-passhny a.back {
+  text-decoration: none !important;
+}
+
+.drg-forgot-passhny a.back:hover {
+  text-decoration: underline !important;
+}
+
+.drg-forgot-passhny .forgot-pass-check input[type="checkbox"] {
+  vertical-align: -1px;
+}
+
+.drg-forgot-passhny .drg-hny-forgot-pass .forgot-pass-check label {
+  font-size: 14px;
+  color: var(--theme-title);
+  font-weight: 400;
+}
+
+.drg-forgot-passhny .checkbox {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  color: #fff;
+}
+
+.drg-forgot-passhny .real_form {
+  padding: 0px;
+  flex-basis: 50%;
+  -webkit-flex-basis: 50%;
+}
+
+.drg-forgot-passhny p.account,
+.drg-forgot-passhny p.account1 {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  line-height: 1.5em;
+  font-size: 16px;
+}
+
+.drg-forgot-passhny p.account a,
+.drg-forgot-passhny p.account1 a {
+  color: var(--theme-rose);
+  text-decoration: underline;
+}
+
+.drg-forgot-passhny p.account a:hover,
+.drg-forgot-passhny p.account1 a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 568px) {
+  .drg-forgot-passhny .drg-hny-forgot-pass-info {
+    padding: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .drg-forgot-passhny .drg-hny-forgot-pass-info {
+    padding: 1.2em;
+  }
+}
+
+/*-- signup page-start --*/
+.drg-signuphny .signup-icon a {
+  font-size: 24px;
+  color: var(--primary-color);
+  display: inline-block;
+}
+
+.drg-signuphny .left_grid_info h1 {
+  font-size: 45px;
+  margin: 1em 0em .5em 0em;
+  color: var(--theme-title);
+}
+
+.drg-signuphny .input-group input[type="text"],
+.drg-signuphny .input-group input[type="email"],
+.drg-signuphny .input-group input[type="Password"] {
+  outline: none;
+  padding: 10px 15px;
+  -webkit-appearance: none;
+  color: black;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 6px;
+  background: var(--theme-white);
+  border: 1px solid #ddd;
+}
+
+.drg-signuphny .input-group input[type="text"]:focus,
+.drg-signuphny .input-group input[type="email"]:focus,
+.drg-signuphny .input-group input[type="Password"]:focus {
+  border: 1px solid var(--theme-rose);
+}
+
+.drg-signuphny .input-group {
+  margin-bottom: 15px;
+}
+
+.drg-signuphny .btn-signup {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 100%;
+  line-height: 48px;
+  text-transform: capitalize;
+}
+
+.drg-signuphny .drg-hny-signup h2 {
+  display: inline-block;
+  font-size: 22px;
+  margin-bottom: 25px;
+  color: var(--theme-title);
+  text-align: center;
+  font-weight: 700;
+}
+
+.drg-signuphny .drg-hny-signup-info {
+  max-width: 360px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 2em;
+  background: var(--theme-lite);
+  border-radius: 6px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+}
+
+.drg-signuphny .drg-hny-signup form label {
+  color: var(--theme-title);
+  margin-bottom: 3px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.drg-signuphny .signup-check {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drg-signuphny a.forgot {
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 3px;
+  display: inline-block;
+  color: var(--theme-rose);
+}
+
+.drg-signuphny a.back span {
+  font-size: 12px;
+  margin-right: 3px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.drg-signuphny a.back {
+  text-decoration: none !important;
+}
+
+.drg-signuphny a.back:hover {
+  text-decoration: underline !important;
+}
+
+.drg-signuphny .signup-check input[type="checkbox"] {
+  vertical-align: -1px;
+}
+
+.drg-signuphny .drg-hny-signup .signup-check label {
+  font-size: 14px;
+  color: var(--theme-title);
+  font-weight: 400;
+}
+
+.drg-signuphny .checkbox {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  color: #fff;
+}
+
+.drg-signuphny .real_form {
+  padding: 0px;
+  flex-basis: 50%;
+  -webkit-flex-basis: 50%;
+}
+
+.drg-signuphny p.account,
+.drg-signuphny p.account1 {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  line-height: 1.5em;
+  font-size: 16px;
+}
+
+.drg-signuphny p.account a,
+.drg-signuphny p.account1 a {
+  color: var(--theme-rose);
+  text-decoration: underline;
+}
+
+.drg-signuphny p.account a:hover,
+.drg-signuphny p.account1 a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 568px) {
+  .drg-signuphny .drg-hny-signup-info {
+    padding: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .drg-signuphny .drg-hny-signup-info {
+    padding: 1.2em;
+  }
+}
+
+
 /*--/video--*/
 .drg-about4 .new-block {
   display: grid;
