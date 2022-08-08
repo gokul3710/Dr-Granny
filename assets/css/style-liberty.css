@@ -75,6 +75,17 @@ body {
   background-color: #fff;
 }
 
+::-webkit-scrollbar{
+ width: 0.5rem;
+ background: var(--theme-lite);
+}
+
+::-webkit-scrollbar-thumb{
+  width: 100%;
+  background: var(--pink);
+  border-radius: 0.25rem;
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
